@@ -1,0 +1,24 @@
+{
+  "name": "keyboard-fixer",
+  "version": "1.0.0",
+  "description": "Convert wrongly typed Persian or English keyboard inputs",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hamedhafez1/keyboard-fixer.git"
+  },
+  "keywords": [
+    "persian",
+    "keyboard",
+    "convert",
+    "en2fa",
+    "fa2en",
+    "typofix"
+  ],
+  "author": "Hamed Hafez",
+  "license": "MIT"
+}
