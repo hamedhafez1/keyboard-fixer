@@ -24,3 +24,15 @@ Using NPM:
 
 ```bash
 npm install keyboard-fixer
+
+
+## 🛠 Usage
+
+### Basic Example
+
+```ts
+import { convertKeyboard } from 'keyboard-fixer';
+
+const wrongInput = "sghl"; // Typed in English layout
+const fixed = convertKeyboard(wrongInput, "en2fa"); // → "سلام"
+console.log(fixed);
